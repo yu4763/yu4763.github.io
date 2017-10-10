@@ -1,26 +1,76 @@
 
+  @font-face{
+    font-family: "Typo_SsangmunDongB";
+    src:url("src/Typo_SsangmunDongB.ttf")
+  }
+  @font-face {
+    font-family: "THE외계인설명서";
+    src:url("src/THE외계인설명서.ttf");
+  }
+
   body {
     margin:0;
     padding:0;
   }
 
   header{
-    background-image: url("src/head.jpg");
-    background-size:100% 70px;
-    background-position:left;
     text-align: center;
     width:100%;
-    height:70px;
-    margin-bottom:20px;
+    height:50px;
+    margin-bottom:30px;
+    font-family: "Typo_SsangmunDongB","휴먼엑스포","바탕", sans-serif;
+    font-size:25px;
+  }
+
+  button{
+    position:absolute;
+    top:10px;
+    right:10px;
   }
 
   .nav{
-    width:15%;
+    width:17%;
     float: left;
+    margin-top:7.5%;
+    font-family: "THE외계인설명서","휴먼엑스포", sans-serif;
+    font-size:19px;
+    line-height: 27px;
+    letter-spacing: 0.1px;
+ }
+
+  .big{
+    font-size:20px;
+    font-weight: bold;
   }
+
+  a:link{
+    color:rgba(51, 26, 0, 0.9);
+    text-decoration: none;
+  }
+  a:visited{
+    color:rgba(51, 26, 0, 0.9);
+    text-decoration: none;
+  }
+  a:hover{
+    color: #ff751a;
+
+  }
+
+  .home:link{
+    color:black;
+  }
+  .home:hover{
+    color:black;
+  }
+  .home:visited{
+    color:black;
+  }
+
   .content{
-    width:85%;
+    width:83%;
     float:right;
+    font-family: "THE외계인설명서","휴먼엑스포", sans-serif;
+    margin-bottom:3%;
   }
 
   table{
@@ -32,7 +82,7 @@
   }
 
   th {
-    background-color: rgb(255, 160, 160) ;
+    background-color: rgba(51, 26, 0, 0.7) ;
     border-bottom: 1.3px solid;
     border-left: 1px groove;
 
@@ -51,32 +101,49 @@
     border-left: 1px groove;
   }
   .music{
-    width:80%;
+    width:85%;
     margin-left: 15px;
+    margin-bottom:1%;
   }
 
   .thumbnail{
-    padding-right:3.5%;
-    padding-bottom:3%;
+    margin-top:3%;
+    margin-left: 10px;
+    padding-right:2.2%;
     float:left;
-    width:25%;
-    height:25%;
-    text-align:center;
+    width:15.2%;
+    height:15.2%;
+    text-align:left;
   }
 
+  .thum {
+    opacity: 0.8;
+  }
+  .thum:hover{
+    opacity:1;
+  }
   .youtube{
+    margin-top:3%;
     float:left;
-    padding: 3%;
-    margin-top:3.5%;
+    padding:1%;
     width:45%;
-    text-align:center;
+    text-align:left;
   }
 
   .lyric{
     float:left;
-    padding:3%;
-    margin-top:3%;
-    margin-left:5%;
+    margin-top:2.5%;
+    padding:2%;
+    padding-left:5%;
+    margin-left:8%;
     text-align:left;
     width:25%;
+    overflow:scroll;
+    width:400px;
+    height:410px;
+  }
+
+  pre{
+    font-family:  "THE외계인설명서", sans-serif;
+    font-size: 17px;
   }
